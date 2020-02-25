@@ -4,7 +4,6 @@
 }
 
 .title {
-    /* border : solid 3px red; */
     background-color: #D0CEBA;
 }
 
@@ -31,16 +30,28 @@
 
 .btnMovie {
     margin-left: 40px;
+    border-radius: 4px;
+}
+
+.btnPeople {
+    margin-left: 10px;
+    border-radius: 4px;
 }
 
 .person {
     padding-left: 30px;
 }
 
-.person:nth-child(odd) {
-    background-color: #D0CEBA;
+.personcard:nth-child(odd) {
+    background-color: rgb(180, 206, 216);
   }
 
-.person:nth-child(even) {
+.personcard:nth-child(even) {
     background-color: #DCE3F4;
+  }
+
+  .header {
+    background-image: linear-gradient(rgb(175, 215, 231), rgb(87, 146, 201));
+    height: 200px;
+    padding-top: 10px;
   }

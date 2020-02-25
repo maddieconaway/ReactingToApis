@@ -46,7 +46,7 @@ class App extends React.Component {
   getPeopleComponent(e) {
      
     return (
-      <div className='card' key={e.id}>
+      <div className='personcard' key={e.id}>
         <div className='person'>Name: {e.name} Gender: {e.gender} Age: {e.age}   <a href={e.url} target='_blank'>(link)</a></div>
       </div>
     )
@@ -69,7 +69,7 @@ class App extends React.Component {
   getHeader() {
     return (
       <React.Fragment>
-        <div>
+        <div className='header'>
           <img alt='logo' className='imgLogo' src={require('./images/logo.png')} />
           <button className='btnMovie' onClick={e => this.clickEventFilms(e)}>Load Films</button>
           <button className='btnPeople' onClick={e => this.clickEventPeople(e)}>Load People</button>
