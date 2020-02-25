@@ -1,0 +1,46 @@
+.card {
+    border : solid 1px black;
+    margin-bottom: 10px;
+}
+
+.title {
+    /* border : solid 3px red; */
+    background-color: #D0CEBA;
+}
+
+.description {
+    border-top : solid 1px black;
+    border-bottom : solid 1px black;
+    padding-left : 20px;
+
+}
+
+.director {
+    background-color: #DCE3F4;
+    padding-left : 40px;
+}
+
+.producer {
+    background-color: #DCE3F4;
+    padding-left : 40px;
+}
+
+.imgLogo {
+    padding-left : 40px;
+}
+
+.btnMovie {
+    margin-left: 40px;
+}
+
+.person {
+    padding-left: 30px;
+}
+
+.person:nth-child(odd) {
+    background-color: #D0CEBA;
+  }
+
+.person:nth-child(even) {
+    background-color: #DCE3F4;
+  }
